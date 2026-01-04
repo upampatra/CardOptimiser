@@ -1,4 +1,4 @@
-Best Card Optimizer – Indian Credit Card Rewards & Offers Chrome Extension (MV3) v1.0
+ReverzeMi – Indian Credit Card Rewards & Offers Chrome Extension (MV3) v1.0
 A Chrome Extension that tells users the best Indian credit card to use on any checkout page based on their saved cards and a built-in recommendation engine.
 
 Installation Instructions:

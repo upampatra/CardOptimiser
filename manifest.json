@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Best Card Optimizer",
+  "name": "ReverzeMi",
   "version": "1.0",
   "description": "Recommends the best Indian credit card to use on checkout pages for maximum rewards and offers.",
   "permissions": [
@@ -23,7 +23,7 @@
   },
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Best Card Optimizer"
+    "default_title": "ReverzeMi"
   },
   "options_page": "options.html",
   "content_scripts": [
