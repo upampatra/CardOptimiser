@@ -1,0 +1,38 @@
+[
+  {
+    "offerId": "FLIP_BBD_HDFC_2023",
+    "merchant": "flipkart",
+    "cardIssuer": "hdfc",
+    "discountType": "instant",
+    "value": 0.10,
+    "maxValue": 1500,
+    "minTxn": 5000,
+    "startDate": "2023-01-01T00:00:00Z",
+    "endDate": "2099-12-31T23:59:59Z",
+    "explanation": "10% instant discount up to ₹1,500 on HDFC cards (Min. ₹5000)"
+  },
+  {
+    "offerId": "AMZ_GIF_SBI_2023",
+    "merchant": "amazon",
+    "cardIssuer": "sbi",
+    "discountType": "instant",
+    "value": 0.10,
+    "maxValue": 1250,
+    "minTxn": 5000,
+    "startDate": "2023-01-01T00:00:00Z",
+    "endDate": "2099-12-31T23:59:59Z",
+    "explanation": "10% instant discount up to ₹1,250 on SBI cards (Min. ₹5000)"
+  },
+  {
+    "offerId": "MYNTRA_SALE_ICICI_2023",
+    "merchant": "myntra",
+    "cardIssuer": "icici",
+    "discountType": "instant",
+    "value": 0.10,
+    "maxValue": 1000,
+    "minTxn": 3000,
+    "startDate": "2023-01-01T00:00:00Z",
+    "endDate": "2099-12-31T23:59:59Z",
+    "explanation": "10% instant discount up to ₹1,000 on ICICI cards (Min. ₹3000)"
+  }
+]

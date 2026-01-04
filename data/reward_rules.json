@@ -1,0 +1,139 @@
+[
+  {
+    "cardId": "axis_ace",
+    "type": "cashback",
+    "baseRate": 0.02,
+    "merchants": [
+      {
+        "slugs": [
+          "google_pay"
+        ],
+        "rate": 0.05,
+        "category": "utilities",
+        "cap": 500,
+        "explanation": "5% on GPay Bills (Cap: ₹500)"
+      },
+      {
+        "slugs": [
+          "swiggy",
+          "zomato"
+        ],
+        "rate": 0.04,
+        "cap": 500,
+        "explanation": "4% on Swiggy/Zomato (Cap: ₹500)"
+      }
+    ],
+    "defaultExplanation": "2% Unlimited Cashback"
+  },
+  {
+    "cardId": "amazon_pay_icici",
+    "type": "cashback",
+    "baseRate": 0.01,
+    "merchants": [
+      {
+        "slugs": [
+          "amazon"
+        ],
+        "rate": 0.05,
+        "condition": "isAmazonPrime",
+        "explanation": "5% for Prime Members"
+      },
+      {
+        "slugs": [
+          "amazon"
+        ],
+        "rate": 0.03,
+        "condition": "!isAmazonPrime",
+        "explanation": "3% for Non-Prime Users"
+      }
+    ],
+    "defaultExplanation": "1% Unlimited Cashback"
+  },
+  {
+    "cardId": "sbi_cashback",
+    "type": "cashback",
+    "baseRate": 0.01,
+    "merchants": [
+      {
+        "slugs": [
+          "amazon",
+          "flipkart",
+          "myntra",
+          "ajio",
+          "nykaa",
+          "tatacliq"
+        ],
+        "rate": 0.05,
+        "cap": 5000,
+        "explanation": "5% Online Cashback (Cap: ₹5000)"
+      }
+    ],
+    "defaultExplanation": "1% on Offline/Other Spends"
+  },
+  {
+    "cardId": "flipkart_axis",
+    "type": "cashback",
+    "baseRate": 0.015,
+    "merchants": [
+      {
+        "slugs": [
+          "flipkart",
+          "myntra"
+        ],
+        "rate": 0.05,
+        "explanation": "5% on Flipkart & Myntra"
+      }
+    ],
+    "defaultExplanation": "1.5% Unlimited Cashback"
+  },
+  {
+    "cardId": "hdfc_millennia",
+    "type": "cashback",
+    "baseRate": 0.01,
+    "merchants": [
+      {
+        "slugs": [
+          "amazon",
+          "flipkart",
+          "myntra",
+          "swiggy",
+          "zomato",
+          "uber"
+        ],
+        "rate": 0.05,
+        "cap": 1000,
+        "explanation": "5% CashPoints (Cap: ₹1000)"
+      }
+    ],
+    "defaultExplanation": "1% on Other Spends"
+  },
+  {
+    "cardId": "hdfc_infinia",
+    "type": "points",
+    "baseRate": 0.033,
+    "valuePerPoint": 1.0,
+    "merchants": [],
+    "defaultExplanation": "3.3% Reward Rate (5 RP per ₹150)"
+  },
+  {
+    "cardId": "hsbc_cashback",
+    "type": "cashback",
+    "baseRate": 0.015,
+    "merchants": [
+      {
+        "slugs": [
+          "amazon",
+          "flipkart",
+          "myntra",
+          "swiggy",
+          "zomato",
+          "bigbasket"
+        ],
+        "rate": 0.10,
+        "cap": 1000,
+        "explanation": "10% Cashback on Dining/Food/Grocery (Cap: ₹1000)"
+      }
+    ],
+    "defaultExplanation": "1.5% Unlimited Cashback"
+  }
+]

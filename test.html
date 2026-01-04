@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BCO Test Checkout Page</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 50px;
+        }
+
+        .checkout-box {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 20px 0;
+            max-width: 400px;
+        }
+
+        .price {
+            font-size: 24px;
+            font-weight: bold;
+            color: #b12704;
+        }
+
+        /* Simulating Amazon */
+        #spc-order-summary-total span {
+            color: #B12704;
+        }
+
+        /* Simulating Flipkart */
+        ._3LxTgx {
+            font-size: 28px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Best Card Optimizer - Test Page</h1>
+    <p>This page simulates various checkout DOM structures to test the content script.</p>
+
+    <div class="checkout-box">
+        <h3>Amazon Simulation</h3>
+        <div id="spc-order-summary-total">
+            Total: <span>₹1,500.00</span>
+        </div>
+    </div>
+
+    <div class="checkout-box">
+        <h3>Flipkart Simulation</h3>
+        <div class="_1Y9Lgu">
+            <div class="_3LxTgx">₹22,999</div>
+        </div>
+    </div>
+
+    <div class="checkout-box">
+        <h3>Generic / Other</h3>
+        <div class="grand-total-price">₹499.00</div>
+    </div>
+
+    <script>
+        // Disclaimer for user
+        console.log("This page helps test if the content script can read these values.");
+    </script>
+</body>
+
+</html>

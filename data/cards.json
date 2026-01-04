@@ -1,0 +1,17 @@
+[
+  { "id": "axis_ace", "name": "Axis Bank ACE", "network": "visa", "issuer": "axis", "color": "#a3263e" },
+  { "id": "amazon_pay_icici", "name": "Amazon Pay ICICI", "network": "visa", "issuer": "icici", "color": "#f3a847" },
+  { "id": "sbi_cashback", "name": "SBI Cashback", "network": "visa", "issuer": "sbi", "color": "#283593" },
+  { "id": "flipkart_axis", "name": "Flipkart Axis", "network": "mastercard", "issuer": "axis", "color": "#047bd5" },
+  { "id": "hdfc_millennia", "name": "HDFC Millennia", "network": "mastercard", "issuer": "hdfc", "color": "#1a1f71" },
+  { "id": "hdfc_infinia", "name": "HDFC Infinia Metal", "network": "visa", "issuer": "hdfc", "color": "#000000" },
+  { "id": "hdfc_regalia_gold", "name": "HDFC Regalia Gold", "network": "visa", "issuer": "hdfc", "color": "#d4af37" },
+  { "id": "icici_rubyx", "name": "ICICI Rubyx", "network": "amex", "issuer": "icici", "color": "#c41e3a" },
+  { "id": "icici_sapphiro", "name": "ICICI Sapphiro", "network": "amex", "issuer": "icici", "color": "#002fa7" },
+  { "id": "amex_plat_travel", "name": "Amex Platinum Travel", "network": "amex", "issuer": "amex", "color": "#cfcfcf" },
+  { "id": "sbi_pulse", "name": "SBI Pulse", "network": "visa", "issuer": "sbi", "color": "#00d2ff" },
+  { "id": "hsbc_cashback", "name": "HSBC Cashback", "network": "visa", "issuer": "hsbc", "color": "#db0011" },
+  { "id": "sc_ultimate", "name": "Standard Chartered Ultimate", "network": "visa", "issuer": "sc", "color": "#008c45" },
+  { "id": "au_lit", "name": "AU LIT Credit Card", "network": "rupay", "issuer": "au", "color": "#7b1fa2" },
+  { "id": "onecard_metal", "name": "OneCard Metal", "network": "visa", "issuer": "onecard", "color": "#333333" }
+]

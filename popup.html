@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Best Card Optimizer</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Best Card Optimizer</h3>
+            <button id="manageCardsBtn" title="Manage My Cards">⚙️</button>
+        </div>
+
+        <div id="loadingState">
+            <p>Analyzing page...</p>
+        </div>
+
+        <div id="unsupportedState" class="hidden">
+            <p>This site may not be supported, or no checkout amount was found.</p>
+            <p>Please ensure you are on a checkout page.</p>
+        </div>
+        
+        <div id="noCardsState" class="hidden">
+             <p>You haven't added any cards yet!</p>
+             <button id="goToOptionsBtn">Click here to manage your cards</button>
+        </div>
+
+        <div id="resultsState" class="hidden">
+            <div class="context-info">
+                <span>Transaction on <b id="merchantName">...</b></span>
+                <span>Amount: <b id="transactionAmount">...</b></span>
+            </div>
+            <div id="bestCard" class="card-result best">
+            </div>
+            <h4>Other Options</h4>
+            <div id="otherCards" class="other-cards-list">
+            </div>
+            <button id="recheckBtn" class="secondary-btn">Check Manual</button>
+        </div>
+
+        <div id="manualInputState" class="hidden">
+            <h3>Manual Check</h3>
+            <p>Enter transaction details:</p>
+            <div class="input-group">
+                <label>Merchant</label>
+                <select id="manualMerchant">
+                    <option value="amazon">Amazon</option>
+                    <option value="flipkart">Flipkart</option>
+                    <option value="myntra">Myntra</option>
+                    <option value="swiggy">Swiggy</option>
+                    <option value="zomato">Zomato</option>
+                    <option value="ajio">Ajio</option>
+                    <option value="tatacliq">TataCliq</option>
+                    <option value="other">Other/Offline</option>
+                </select>
+            </div>
+            <div class="input-group">
+                <label>Amount (₹)</label>
+                <input type="number" id="manualAmount" placeholder="e.g. 5000">
+            </div>
+            <button id="calculateBtn">Find Best Card</button>
+            <button id="backBtn" class="text-btn">Cancel</button>
+        </div>
+
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
